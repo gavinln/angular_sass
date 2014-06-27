@@ -1,0 +1,12 @@
+.tmp
+js/node_modules
+js/app/bower_components
+*.pyc
+*.log
+*~
+*.pyc
+*.class
+*.swp
+.vagrant
+
+
