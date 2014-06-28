@@ -24,3 +24,8 @@ http://localhost:9000/
 To login to the VM using a username/password use the following
 vagrant/vagrant
 
+The following causes problems in the package.json file
+/*
+"grunt-contrib-imagemin": "0.7.0",
+"grunt-google-cdn": "^0.4.0",
+*/

@@ -34,6 +34,10 @@ class init {
                     Exec['update_apt'],
                 ];
             }
+            package { 'compass':
+                ensure => 'installed',
+                provider => 'gem',
+            }
         }
     }
 }
