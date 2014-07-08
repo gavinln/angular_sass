@@ -10,10 +10,12 @@
 module.exports = function (grunt) {
 
   // Load grunt tasks automatically
-  require('load-grunt-tasks')(grunt);
+  // require('load-grunt-tasks')(grunt); // replaced by jit-grunt
 
   // Time how long tasks take. Can help when optimizing build times
-  require('time-grunt')(grunt);
+  // require('time-grunt')(grunt); // replaced by jit-grunt
+
+  require('jit-grunt')(grunt);
 
   // Configurable paths for the application
   var appConfig = {
