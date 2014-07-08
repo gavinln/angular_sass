@@ -79,13 +79,20 @@ http://localhost:9000/
 
 8. To stop the server type `Ctrl+C`
 
-9. To check the Javascript code using [jshint][10]. A formatting error has been added.
+9. To check the Javascript code using [jshint][10].
 
     ```bash
     grunt jshint
     ```
 
-10. To destroy the VM
+10. To exit from the guest operating system
+
+    ```bash
+    exit
+    ```
+
+
+11. To destroy the VM
 
     ```
     vagrant destroy -f
