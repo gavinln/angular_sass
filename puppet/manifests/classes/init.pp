@@ -20,8 +20,7 @@ class init {
                     Exec['update_apt'],
                 ];
             }
-            $misc_packages = ['make', 'curl', 'git-core',
-                'smbfs', 'tmux']
+            $misc_packages = ['make', 'curl', 'git-core', 'tmux']
             package { $misc_packages:
                 ensure => present,
                 require => [
