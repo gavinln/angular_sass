@@ -1,6 +1,6 @@
 class javascript {
     class { 'nodejs':
-        version => 'stable'
+        version => 'v0.10.26'  # v0.10.29 does not install correctly
     }
     package { 'bower':
         provider => npm,
