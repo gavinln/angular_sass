@@ -1,5 +1,5 @@
-angular_vm
-==========
+angular_sass
+============
 
 * Source code - [Github][1]
 * Author - Gavin Noronha - <gavinln@hotmail.com>
