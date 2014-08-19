@@ -33,9 +33,13 @@ class init {
                     Exec['update_apt'],
                 ];
             }
+            package { 'ruby-dev':
+                ensure => present
+            }
             package { 'compass':
                 ensure => 'installed',
                 provider => 'gem',
+                require => Package['ruby-dev']
             }
         }
     }
